@@ -1,10 +1,16 @@
+import FooterOne from "../components/Footer1";
+import Header from "../components/Header";
+import Section_one from "../components/Section_one";
+import Section_top from "../components/Section_top";
 
 export default function Home() {
   return (
-    <div className="flex justify-center items-center min-h-screen">
-      <div className='text-white bg-blue-500 py-3 px-6 inline-block'>
-        Welcome to TailNext
-      </div>
-    </div>
+    <>
+      <Header />
+      <Section_top />
+      <Section_one />
+      <FooterOne />
+    </>
+
   )
 }
