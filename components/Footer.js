@@ -1,5 +1,3 @@
 export default function Footer() {
-    return <>
-        Footer Component
-    </>
+  return <>Footer Component</>;
 }
